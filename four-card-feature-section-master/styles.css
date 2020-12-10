@@ -110,3 +110,23 @@ footer {
 .attribution a { 
     color:hsl(234, 12%, 34%); 
 }
+
+@media (max-width: 375px) {
+    .title {
+        max-width: 90vw;
+        text-align: center;
+        margin-bottom: 12px;
+    }
+
+    .title h1 {
+        font-size: 22px;
+    }
+
+    .title p {
+        font-size: 13px;
+    }
+
+    .cards {
+        flex-direction: column;
+    }
+}
