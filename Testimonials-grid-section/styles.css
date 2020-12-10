@@ -1,0 +1,168 @@
+:root {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(210, 46%, 95%);
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    letter-spacing: 0.8px;
+
+}
+
+.container {
+    width: 1040px;
+    height: 600px;
+
+    position: absolute;
+    top: 0; 
+    bottom: 0;
+    left: 0; 
+    right: 0;
+    margin: auto;
+
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-areas: 
+    "daniel daniel jonathan kira"
+    "jeanette patrick patrick kira";
+    gap: 20px;
+}
+
+.card {
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    padding: 24px;
+    box-sizing: border-box;
+    border-radius: 8px;
+
+    box-shadow: 4px 0px 16px rgba(0, 0, 0, 0.1);
+
+}
+
+.card .profile {
+    display: flex;
+    align-items: center;
+    height: 34px;
+}
+
+.card .profile img {
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    margin-right: 16px;
+
+    border: 2px solid rgba(255, 255, 255, 0.5)
+}
+
+.card .profile div {
+    height: 34px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.card .profile div p {
+    margin: 0;
+    font-size: 12px;
+}
+
+.card .profile div .card-name {
+    font-weight: 600;
+}
+
+.card .profile div .card-status {
+    opacity: 0.5;
+}
+
+.card .card-highlight {
+    margin-top: 20px;
+    font-weight: 600;
+    font-size: 19px;
+    text-align: left;
+}
+
+.card .card-quotes {
+    margin-top: 20px;
+    font-size: 12px;
+    line-height: 16px;
+    opacity: 0.7;
+}
+
+#daniel {
+    background-color: hsl(263, 55%, 52%);
+    grid-area: daniel;
+    color: hsl(210, 46%, 95%);
+
+    background-image: url('/images/bg-pattern-quotation.svg');
+    background-repeat: no-repeat;
+    background-position: 80% top;
+}
+
+#jonathan {
+    grid-area: jonathan;
+    background-color: hsl(217, 19%, 35%);
+    color: hsl(210, 46%, 95%);
+}
+
+#kira {
+    grid-area: kira;
+    color: hsl(217, 19%, 35%);
+}
+
+#jeanette {
+    color: hsl(217, 19%, 35%);
+    grid-area: jeanette;
+}
+
+#patrick {
+    grid-area: patrick;
+    background-color: hsl(219, 29%, 14%);
+    color: hsl(210, 46%, 95%);
+}
+
+
+footer {
+    margin-top: auto;
+    width: 100vw;
+    height: 40px;
+}
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+@media (max-width: 375px) {
+    body {
+        height: initial;
+        align-items: center;
+    }
+    .container {
+        max-width: 90vw;
+        height: initial;
+        margin-bottom: 20px;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .cards {
+        height: min-content;
+    }
+
+    .card {
+        height: min-content;
+    }
+
+    footer {
+        margin: auto;
+    }
+}
