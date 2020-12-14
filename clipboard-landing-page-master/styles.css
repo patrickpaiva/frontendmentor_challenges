@@ -139,6 +139,15 @@ section.introduction .section-content .options-list .option h3 {
     margin-bottom: 20px;
 }
 
+section.access {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section.access .section-content {
+    margin-top: 80px;
+}
 
 .attribution { 
     font-size: 11px; 
