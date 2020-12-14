@@ -25,6 +25,7 @@ h1, h2, h3 {
 .container {
     max-width: 1100px;
     margin: 0 auto;
+    padding: 0 20px;
 }
 
 header {
@@ -61,6 +62,7 @@ header p {
     font-size: 16px;
     transition: opacity 0.5s;
     cursor: pointer;
+    box-shadow: 4px 2px 16px rgba(0, 0, 0, 0.3);
 }
 
 .buttons #button-green {
@@ -155,6 +157,10 @@ section.access .section-content {
     margin-top: 80px;
 }
 
+section.access .section-content img {
+    width: 100%;
+}
+
 section.workflow {
     display: flex;
     flex-direction: column;
@@ -207,6 +213,7 @@ footer {
 
 footer .footer {
     display: flex;
+    width: 100%;
     padding: 40px;
     align-items: center;
     justify-content: space-around;
@@ -214,10 +221,13 @@ footer .footer {
 
 footer .footer >img {
     height: 55px;
+    padding-right: 20px;
 }
 
 footer .footer ul {
     list-style: none;
+    max-width: 400px;
+    width: 100%;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
@@ -236,6 +246,7 @@ footer .footer ul li a:hover {
 footer .footer .social-media {
     display: flex;
     gap: 20px;
+    padding-left: 20px;
 }
 
 footer .footer .social-media a {
@@ -258,4 +269,89 @@ footer .footer .social-media a:hover {
 }
 .attribution a { 
     color:  hsl(171, 66%, 44%); 
+}
+
+@media (max-width: 768px) {
+    body {
+        background-image: url('/images/bg-header-mobile.png');
+        background-position: 0 0;
+    }
+    h1, h2 {
+        text-align: center;
+    }
+
+    .buttons {
+        flex-direction: column;
+    }
+    .buttons button {
+        margin-bottom: 20px;
+        padding: 14px 80px;
+    }
+    .buttons button:last-child {
+        margin-left: 0;
+        margin-bottom: 0;
+    }
+    header h1 {
+        font-size: 32px;
+    }
+    header p {
+        font-size: 18px;
+    }
+    section.introduction .section-content {
+        flex-direction: column;
+    }
+
+    section.introduction .section-content .computer-image {
+        margin-left: 0;
+    }
+    
+    section.introduction .section-content .computer-image >div {
+        display: none;
+    }
+
+    section.introduction .section-content .computer-image img {
+        width: 100%;
+    }
+
+    section.introduction .section-content .options-list {
+        max-width: 100%;
+        margin-top: 40px;
+    }
+
+    section.introduction .section-content .options-list .option {
+        text-align: center;
+    }
+
+    section.workflow .section-content {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        row-gap: 40px;
+    }
+
+    section.partners {
+        flex-direction: column;
+        row-gap: 40px;
+    }
+
+    footer .footer {
+        flex-direction: column;
+    }
+
+    footer .footer img {
+        padding-right: 0;
+        margin-bottom: 40px;
+    }
+
+    footer .footer ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    footer .footer .social-media {
+        padding-left: 0;
+        margin-top: 40px;
+    }
 }
