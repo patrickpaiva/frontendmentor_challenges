@@ -178,6 +178,13 @@ section.workflow .section-content .feature p {
     margin-top: 20px;
 }
 
+section.partners {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-around;
+}
+
 
 .attribution { 
     font-size: 11px; 
