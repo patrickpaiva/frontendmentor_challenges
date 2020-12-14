@@ -12,5 +12,6 @@ all solutions i made this far. All of them are hosted on Vercel, check the links
 | 4 | Testimonials grid section | [Repo](https://github.com/patrickpaiva/frontendmentor_challenges/tree/main/Testimonials-grid-section) | [Live View](https://testimonials-grid-section-phi-woad.vercel.app/) |
 | 5 | Single Price Grid Component | [Repo](https://github.com/patrickpaiva/frontendmentor_challenges/tree/main/single-price-grid-component-master) | [Live View](https://single-price-grid-component-master-woad.vercel.app/) |
 | 6 | Huddle landing page with single introductory section | [Repo](https://github.com/patrickpaiva/frontendmentor_challenges/tree/main/huddle-landing-page-with-single-introductory-section-master) | [Live View](https://huddle-landing-page-with-single-introductory-section-master.patrickpaiva.vercel.app/) |
+| 7 | Fylo data storage component | [Repo](https://github.com/patrickpaiva/frontendmentor_challenges/tree/main/fylo-data-storage-component-master) | [Live View](https://fylo-data-storage-component-master-pearl.vercel.app/) |
 
 Next solution comming soon!
