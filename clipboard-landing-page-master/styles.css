@@ -46,12 +46,12 @@ header p {
     font-size: 20px;
 }
 
-header .buttons {
+.buttons {
     display: flex;
     margin-top: 32px;
 }
 
-header .buttons button {
+.buttons button {
     font-family: 'Bai Jamjuree', sans-serif;
     padding: 14px 32px;
     border-radius: 30px;
@@ -61,17 +61,17 @@ header .buttons button {
     font-size: 16px;
 }
 
-header .buttons #button-green {
+.buttons #button-green {
     background-color: hsl(171, 66%, 44%);
     border-bottom: 3px solid hsl(171, 68%, 35%);
 }
 
-header .buttons #button-blue {
+.buttons #button-blue {
     background-color: hsl(233, 100%, 69%);
     border-bottom: 3px solid hsl(233, 48%, 49%);
 }
 
-header .buttons button:last-child {
+.buttons button:last-child {
     margin-left: 12px;
 }
 
@@ -183,6 +183,12 @@ section.partners {
     align-items: center;
     width: 100%;
     justify-content: space-around;
+}
+
+section.availability {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 
