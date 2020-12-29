@@ -15,5 +15,6 @@ all solutions i made this far. All of them are hosted on Vercel, check the links
 | 7 | Fylo data storage component | [Repo](https://github.com/patrickpaiva/frontendmentor_challenges/tree/main/fylo-data-storage-component-master) | [Live View](https://fylo-data-storage-component-master-pearl.vercel.app/) |
 | 8 | Clipboard landing page | [Repo](https://github.com/patrickpaiva/frontendmentor_challenges/tree/main/clipboard-landing-page-master) | [Live View](https://clipboard-landing-page-master-swart.vercel.app/) |
 | 9 | Huddle landing page with alternating feature blocks | [Repo](https://github.com/patrickpaiva/frontendmentor_challenges/tree/main/huddle-landing-page-with-alternating-feature-blocks-master) | [Live View](https://huddle-landing-page-with-alternating-feature-blocks-master.patrickpaiva.vercel.app/) |
+| 10 | Fylo landing page with dark theme and features grid | [Repo](https://github.com/patrickpaiva/frontendmentor_challenges/tree/main/fylo-dark-theme-landing-page-master) | [Live View](https://fylo-dark-theme-landing-page-master-delta.vercel.app) |
 
 Next solution comming soon!
