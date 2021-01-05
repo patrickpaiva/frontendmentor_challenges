@@ -17,5 +17,6 @@ all solutions i made this far. All of them are hosted on Vercel, check the links
 | 9 | Huddle landing page with alternating feature blocks | [Repo](https://github.com/patrickpaiva/frontendmentor_challenges/tree/main/huddle-landing-page-with-alternating-feature-blocks-master) | [Live View](https://huddle-landing-page-with-alternating-feature-blocks-master.patrickpaiva.vercel.app/) |
 | 10 | Fylo landing page with dark theme and features grid | [Repo](https://github.com/patrickpaiva/frontendmentor_challenges/tree/main/fylo-dark-theme-landing-page-master) | [Live View](https://fylo-dark-theme-landing-page-master-delta.vercel.app) |
 | 11 | Fylo landing page with two column layout | [Repo](https://github.com/patrickpaiva/frontendmentor_challenges/tree/main/fylo-landing-page-with-two-column-layout-master) | [Live View](https://fylo-landing-page-with-two-column-layout-master-flax.vercel.app/) |
+| 12 | Huddle landing page with curved sections | [Repo](https://github.com/patrickpaiva/frontendmentor_challenges/tree/main/huddle-landing-page-with-curved-sections-master) | [Live View](https://huddle-landing-page-with-curved-sections-master-khaki.vercel.app/) |
 
 Next solution comming soon!
