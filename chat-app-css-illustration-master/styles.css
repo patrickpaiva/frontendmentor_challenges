@@ -46,7 +46,7 @@ main {
 .content {
     max-width: 85rem;
     display: flex;
-    height: 65rem;
+    height: 67.6rem;
     
 
     position: absolute;
@@ -58,7 +58,7 @@ main {
 }
 
 .content .smartphone {
-    min-width: 30rem;
+    min-width: 32rem;
     height: 100%;
     background-color: var(--color-white);
     border-radius: 3rem;
@@ -229,6 +229,37 @@ main {
     margin-left: auto;
     font-size: 2rem;
     font-weight: 700;
+}
+
+.content .smartphone .chat-bg .chat-box .message-input {
+    height: 4rem;
+    background-color: var(--color-bg-white);
+    border-radius: 2rem;
+    display: flex;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.content .smartphone .chat-bg .chat-box .message-input p {
+    margin-left: 2rem;
+    color: var(--color-grayish-blue);
+}
+
+.content .smartphone .chat-bg .chat-box .message-input .send-arrow {
+    margin-left: auto;
+    margin-right: 0.4rem;
+    height: 3rem;
+    width: 3rem;
+    border-radius: 50%;
+    background-color: var(--color-very-dark-desaturated-violet);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content .smartphone .chat-bg .chat-box .message-input .send-arrow img {
+    height: 1.4rem;
+    object-fit: contain;
 }
 
 
