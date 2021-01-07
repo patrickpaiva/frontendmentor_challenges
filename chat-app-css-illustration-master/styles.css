@@ -12,6 +12,7 @@
     --color-light-grayish-violet: hsl(270, 20%, 96%);
     --color-very-dark-desaturated-violet: hsl(271, 36%, 24%);
     --color-very-light-magenta: hsl(289, 100%, 72%);
+    --color-chat-left-bg: hsl(266, 79%, 94%);
 }
 
 * {
@@ -155,6 +156,47 @@ main {
 .content .smartphone .chat-bg .chat-box {
     border-bottom-left-radius: 2rem;
     border-bottom-right-radius: 2rem;
-    flex: 1;
     overflow: hidden;
+    padding: 1.2rem;
+    font-size: 1.1rem;
+    line-height: 1.6rem;
 }
+
+.content .smartphone .chat-bg .chat-box .message-received {
+    padding: 1rem;
+    border-radius: 1rem;
+    border-bottom-left-radius: 0.4rem;
+    background-color: var(--color-chat-left-bg);
+    max-width: 70%;
+    margin-bottom: 1.2rem;
+    color: var(--color-moderate-violet);
+}
+
+.content .smartphone .chat-bg .chat-box .message-sent {
+    padding: 1rem;
+    border-radius: 1rem;
+    border-bottom-right-radius: 0.4rem;
+    background-color: var(--color-white);
+    max-width: 70%;
+    margin-bottom: 1.2rem;
+    color: var(--color-desaturated-dark-violet);
+    margin-left: auto;
+}
+
+.content .smartphone .chat-bg .chat-box .images-sent {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 70%;
+    margin-left: auto;
+    margin-top: 2rem;
+    margin-bottom: 1.2rem;
+}
+
+.content .smartphone .chat-bg .chat-box .images-sent img {
+    width: 4.8rem;
+    height: 4.8rem;
+    border-radius: 1rem;
+}
+
+
