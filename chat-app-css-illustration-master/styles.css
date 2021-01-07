@@ -32,7 +32,12 @@ body {
     text-rendering: optimizeLegibility !important;
     -webkit-font-smoothing: antialiased !important;
     background-color: var(--color-bg-white);
+    position: relative;
+    max-height: 100vh;
+    overflow: hidden;
 }
+
+
 
 main {
     max-width: 1440px;
@@ -40,15 +45,17 @@ main {
     height: 100vh;
     position: relative;
     margin: 0 auto;
-    
+    display: flex;
+    flex-direction: column;
 }
 
 .content {
     max-width: 89rem;
     display: flex;
     height: 68.8rem;
+    display: flex;
     
-
+    
     position: absolute;
     top: 0; 
     bottom: 0;
@@ -56,6 +63,33 @@ main {
     right: 0;
     margin: auto;
 }
+
+.content::before {
+    content: '';
+    width: 50.5rem;
+    height: 130rem;
+    background: linear-gradient(225deg, var(--color-light-magenta) 0%, var(--color-light-violet) 100%);
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translate(-42.2rem, -45%);
+    border-radius: 35rem;
+    z-index: -1;
+}
+
+.content::after {
+    content: '';
+    width: 50.5rem;
+    height: 130rem;
+    background-color: var(--color-light-grayish-violet);
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    transform: translate(42.2rem, 45%);
+    border-radius: 35rem;
+    z-index: -1;
+}
+
 
 .content .smartphone {
     min-width: 32rem;
@@ -280,6 +314,23 @@ main {
     font-size: 1.6rem;
     line-height: 2.6rem;
     color: var(--color-dark-grayish-violet);
+}
+
+.attribution {
+    position: absolute;
+    bottom: 1rem;
+    left: 50%;
+    transform: translate(-50%, 0);
+    font-size: 1.1rem;
+}
+
+.attribution a {
+    text-decoration: none;
+    color: var(--color-light-magenta);
+}
+
+.attribution a:hover {
+    opacity: 0.7;
 }
 
 
