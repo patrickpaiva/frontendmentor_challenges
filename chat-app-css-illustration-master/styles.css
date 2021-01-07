@@ -44,7 +44,7 @@ main {
 }
 
 .content {
-    max-width: 85rem;
+    max-width: 89rem;
     display: flex;
     height: 67.6rem;
     
@@ -261,6 +261,26 @@ main {
     height: 1.4rem;
     object-fit: contain;
 }
+
+.content .page-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 12rem;
+}
+
+.content .page-text h1 {
+    color: var(--color-very-dark-desaturated-violet);
+    font-weight: 500;
+    margin-bottom: 2rem;
+}
+
+.content .page-text p {
+    font-size: 1.6rem;
+    line-height: 2.6rem;
+    color: var(--color-dark-grayish-violet);
+}
+
 
 
 
