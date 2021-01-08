@@ -2,6 +2,16 @@
 
 ![Design preview for the Chat app CSS illustration coding challenge](./design/desktop-preview.jpg)
 
+## Patrick´s Notes :v:
+
+Hi! I just finished this challenge and you can access it live using the address:
+[Live View](https://chat-app-css-illustration-master-phi.vercel.app)
+
+Thanks for visiting! Below you can read Frontend Mentor's instructions.
+
+Bye!
+
+
 ## Welcome! 👋
 
 Thanks for checking out this front-end coding challenge.
